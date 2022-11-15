@@ -15,7 +15,7 @@ import {
 function Header() {
   const [modal, setModal] = useState(false);
   const [title, setTitle] = useState("");
-  const [time, setTime] = useState("00:00");
+  const [getTime, setGetTime] = useState("00:00");
   const [status, setStatus] = useState("");
 
   const options = [
@@ -27,9 +27,9 @@ function Header() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    let newTime = time.replace("T", " ")
+    let time = getTime.replace("T", " ")
 
-    axios.post('http://localhost:7000/api/posts', {title, newTime, status})
+    axios.post('http://localhost:7000/api/posts', {title, time, status})
     .then((response)=>{
       console.log(response)
       window.location.reload(true)
@@ -58,8 +58,8 @@ function Header() {
           <Input
             required
             type='datetime-local'
-            value={time}
-            onChange={e => setTime(e.target.value)}
+            value={getTime}
+            onChange={e => setGetTime(e.target.value)}
             min="00:00"
             max="23:59"
             step="60"
