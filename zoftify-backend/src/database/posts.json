@@ -1,0 +1,44 @@
+[
+    {
+        "post_id": 1,
+        "title": "what's ExpressJs?",
+        "time": "2022-11-02 11:10",
+        "status": "Published"
+    },
+    {
+        "post_id": 2,
+        "title": "yashavor",
+        "time": "2022-11-02 11:10",
+        "status": "draft"
+    },
+    {
+        "post_id": 3,
+        "title": "Data",
+        "time": "2022-11-02 11:10",
+        "status": "Status"
+    },
+    {
+        "post_id": 4,
+        "title": "Hello",
+        "time": "2022-11-02 11:10",
+        "status": "draft"
+    },
+    {
+        "post_id": 5,
+        "title": "asd",
+        "time": "2022-11-02 11:10",
+        "status": "published"
+    },
+    {
+        "post_id": 6,
+        "title": "Yana bitta",
+        "time": "2022-11-05 11:18",
+        "status": "draft"
+    },
+    {
+        "post_id": 7,
+        "title": "asdasda",
+        "time": "2022-11-03 11:19",
+        "status": "draft"
+    }
+]
